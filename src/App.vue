@@ -1,18 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <Resume pdf="public/ChoudryAbdulRehmanResume.pdf"/>
-  <HelloWorld msg="Welcome"/>
+  <img class = "image" alt="My Picture" src="./assets/20200905_085628.jpg" height="300">
+  <ResComp/>
+  <HelloWorld msg="I am an International Student from Pakistan, Double Majoring in Computer Science and Economics at Knox College. I am interested in Full Stack Web and Mobile development and currently looking for Software Engineering Internships"/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import Resume from './components/Resume.vue'
+import ResComp from './components/ResComp.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Resume
+    ResComp
   }
 }
 </script>
@@ -25,5 +25,20 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.image {
+  float: right;
+  display: inline;
+}
+
+.resume {
+  float: left;
+  right:20%;
+  display: inline;
+}
+
+.hello {
+  position: sticky;
 }
 </style>
