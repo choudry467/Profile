@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
-    <p>{{ msg }}</p>
+    <h1>Choudry Abdul Rehman</h1>
+    <h2>Software Engineering, Knox College</h2>
+    <div>{{ msg }}</div>
   </div>
 </template>
 
@@ -15,5 +17,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+.hello div{
+  margin: 0 20%;
+}
 </style>
