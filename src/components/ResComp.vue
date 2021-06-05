@@ -1,6 +1,6 @@
 <template>
   <div class="resume">
-    <iframe src= "/Profile/ChoudryAbdulRehmanResume.pdf" height="1122px" width="830px"></iframe>
+    <iframe src= "./ChoudryAbdulRehmanResume.pdf" height="1122px" width="830px"></iframe>
   </div>
 </template>
 
